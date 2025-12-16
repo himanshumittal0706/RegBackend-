@@ -26,8 +26,8 @@ app.get("/", (req, res, next) => {
   })
 })
 
-
 dbConnection();
+
 app.use(errorMiddleware);
 
 export default app;
